@@ -347,9 +347,9 @@ $(document)['ready'](function() {
     $('a[href$=bmp]:has(img)')['lightBox']();
 });
 $(document)['ready'](function() {
-    $('#cpright')['html']('قدم من طرف موقع  <a href="http://tasmmemie.blogspot.com">تصميمي</a>');
+    $('#cpleft')['html']('قدم من طرف موقع  <a href="http://tasmmemie.blogspot.com">تصميمي</a>');
     setInterval(function() {
-        if (!$('#cpright:visible')['length']) {
+        if (!$('#cpleft:visible')['length']) {
             window['location']['href'] = 'http://tasmmemie.blogspot.com'
         }
     }, 3000);
